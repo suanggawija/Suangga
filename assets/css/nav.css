@@ -17,9 +17,25 @@
 .navbar.logo{
     font-weight: 600;
 }
-
-.nav ul li {
+nav ul li{
+    margin-bottom: 24px;
+}
+nav ul li a{
+    text-align: center;
+    list-style: none;
+    color: rgb(209, 209, 209);
     display: flex;
     align-items: center;
-    padding: 100px 0;
+}
+nav ul li a img{
+    margin-right: 12px;
+    padding: 6px;
+}
+
+.active{
+    color:  var(--maincolor);
+}
+.active img{
+    background: var(--maincolor);
+    border-radius: 100%;
 }
