@@ -13,6 +13,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.03em;
+    transition: .3s ease;
 }
 body{
     overflow-x: hidden;
@@ -34,6 +35,9 @@ h2{
     line-height: 30px;
     color: #FFEAEA;
 }
+.btn:hover{
+    background: var(--maincolor2);
+}
 
 .decoration{
     position: absolute;
@@ -47,8 +51,6 @@ header{
     display: flex;
 }
 
-
-/* main */
 .main{
     width: 100%;
     display: flex;

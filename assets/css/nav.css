@@ -14,8 +14,10 @@
     left: 0;
     z-index: 99;
 }
-.navbar.logo{
+.navbar .logo{
     font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
 }
 nav ul li{
     margin-bottom: 24px;
@@ -27,11 +29,11 @@ nav ul li a{
     display: flex;
     align-items: center;
 }
+
 nav ul li a img{
     margin-right: 12px;
     padding: 8px;
 }
-
 .active{
     color:  var(--maincolor);
 }
@@ -51,4 +53,8 @@ nav ul li a img{
     background: #fff;
     border-radius: 100%;
     cursor: pointer;
+    transition: .3s ease;
+}
+.navbar .medsos a img:hover{
+    background: #1E1E1E;
 }
