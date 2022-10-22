@@ -1,0 +1,45 @@
+.about{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about img{
+    width: 200px;
+    height: 200px;
+    margin: 30px 0 12px;
+}
+.about h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+.about p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5A5A5A;
+    margin: 12px 0 24px;
+}
+.about .medsos-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--maincolor);
+}
+.about .decoration{
+    left: 160px;
+    top: 680px;
+}
+.medsos{
+    margin-top: -60px;
+}
+.medsos img{
+    width: 24px;
+    margin-top: -24px;
+}

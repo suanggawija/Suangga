@@ -1,0 +1,51 @@
+.hero{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .hero-img{
+    width: 40%;
+    background-color: var(--maincolor);
+    margin: 80px;
+}
+.hero .hero-img img{
+    width: 100%;
+    padding: 36px;
+}
+
+
+.hero .hero-title{
+    width: 60%;
+}
+.hero .say-hello{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.hero .hero-title h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 8px 0 0 0;
+}
+.hero .hero-title .profesion{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--maincolor);
+}
+.hero .hero-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5A5A5A;
+    margin: 12px 0 24px;
+}
+.hero .decoration{
+    top: 30px;
+    right: -50px;
+}

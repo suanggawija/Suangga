@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 42px;
+    width: 18%;
+    height: 100vh;
+    background: #1E1E1E;
+    color: white;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+.navbar.logo{
+    font-weight: 600;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
