@@ -1,4 +1,28 @@
 .skill{
     width: 100%;
-    text-align: center;
+    text-align: center; 
+    position: relative;
+}
+.skill .decoration{
+    top: -10px;
+    right: -50px;
+}
+.skill h2{
+    margin-top: 42px;
+}
+.skill-img{
+    display: grid;
+    margin: 50px 0 0;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px ;
+    grid-gap: 18px;
+    justify-content: center;
+}
+.skill-img img{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    object-fit: none;
+    box-shadow: var(--shadow);
 }
