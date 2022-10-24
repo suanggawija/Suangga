@@ -34,6 +34,7 @@ h2{
     font-size: 20px;
     line-height: 30px;
     color: #FFEAEA;
+    cursor: pointer;
 }
 .btn:hover{
     background: var(--maincolor2);

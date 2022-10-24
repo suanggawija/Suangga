@@ -13,16 +13,16 @@
 .skill-img{
     display: grid;
     margin: 50px 0 0;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px ;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px ;
     grid-gap: 18px;
     justify-content: center;
 }
 .skill-img img{
     display: flex;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: none;
     box-shadow: var(--shadow);
 }

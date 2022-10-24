@@ -33,7 +33,16 @@ nav ul li a{
 nav ul li a img{
     margin-right: 12px;
     padding: 8px;
+    border-radius: 100%;
 }
+nav ul li a:hover{
+    color:  var(--maincolor);
+}
+nav ul li a:hover img{
+    background: var(--maincolor);
+    border-radius: 100%;
+}
+
 .active{
     color:  var(--maincolor);
 }
