@@ -3,5 +3,29 @@
     text-align: center; 
     position: relative;
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h2{
+    margin-top: 42px;
+}
+.contact form{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
 }
 
+.contact input{
+    width: 60%;
+    height: 42px;
+    margin-bottom: 12px;
+}
+.contact input::placeholder{
+    font-size: 18px;
+}
+.contact .pesan{
+    height: 168px;
+}
