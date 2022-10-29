@@ -26,3 +26,9 @@
     height: 220px;
     object-fit: cover;
 }
+
+.portofolio .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
